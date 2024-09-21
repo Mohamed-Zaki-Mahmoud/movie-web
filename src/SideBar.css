@@ -1,0 +1,68 @@
+/* Sidebar container */
+.sidebar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #282c34;
+    padding: 10px;
+  }
+  
+  /* Small movie cards container */
+  .small-movie-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #31343b;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .small-movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Movie image */
+  .small-movie-image {
+    width: 50px; /* Smaller image size */
+    height: 75px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  /* Movie info */
+  .movie-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Movie title */
+  .small-movie-title {
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #bdbcbc;
+    
+  }
+  
+  /* Movie rating and quality */
+  .small-movie-rating,
+  .small-movie-quality {
+    font-size: 12px;
+    color: #bdbcbc;
+    margin: 2px 0;
+    
+    
+   
+  }
+  
+  h3 {
+    text-align: left;
+    color: #bdbcbc;
+    font-family: 'Montserrat', sans-serif;
+  }
